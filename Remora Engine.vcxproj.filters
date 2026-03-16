@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Remora">
+      <UniqueIdentifier>{f9e4bfd0-7086-4867-9b8e-25f9fdaffccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remora\src">
+      <UniqueIdentifier>{17c93ff1-47e3-42a0-850f-b0832f1aa436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remora\include">
+      <UniqueIdentifier>{8f5e2559-515a-480c-8166-da69dda66360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remora\Resources">
+      <UniqueIdentifier>{e89a02c5-5f83-472d-9259-a1738534fd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Remora\imGUI">
+      <UniqueIdentifier>{902a6356-2741-440b-9685-475a1265f752}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DCore.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rendering.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui.cpp">
+      <Filter>Remora\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_draw.cpp">
+      <Filter>Remora\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_dx11.cpp">
+      <Filter>Remora\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_impl_win32.cpp">
+      <Filter>Remora\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_tables.cpp">
+      <Filter>Remora\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_widgets.cpp">
+      <Filter>Remora\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPS.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>Remora\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Input.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\System.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Application.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\D3DCore.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Camera.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Rendering.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui_impl_dx11.h">
+      <Filter>Remora\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui.h">
+      <Filter>Remora\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui_impl_win32.h">
+      <Filter>Remora\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imstb_textedit.h">
+      <Filter>Remora\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\FPS.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Timer.h">
+      <Filter>Remora\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\sphere.hlsl">
+      <Filter>Remora\Resources</Filter>
+    </None>
+    <None Include="resources\vertexShader.hlsl">
+      <Filter>Remora\Resources</Filter>
+    </None>
+    <None Include="resources\mandelbulb.hlsl">
+      <Filter>Remora\Resources</Filter>
+    </None>
+    <None Include="resources\2Dmandelbrot.hlsl">
+      <Filter>Remora\Resources</Filter>
+    </None>
+    <None Include="resources\julia.hlsl">
+      <Filter>Remora\Resources</Filter>
+    </None>
+    <None Include="resources\2Djulia.hlsl">
+      <Filter>Remora\Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
