@@ -43,7 +43,7 @@
     
     Bash
     ```
-    git clone https://github.com/staintheone/Ray-Marching-Engine
+    git clone https://github.com/staintheone/Custom-Ray-Marcher
     ```
 2.  **Open the Project:**
     
